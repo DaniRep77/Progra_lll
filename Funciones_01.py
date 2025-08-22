@@ -1,9 +1,10 @@
-#crear la funcion
-def cuadrado_numero(num1):
-    return num1 ** 2
+# crear la función con 2 parámetros
+def sumar(num1, num2):
+    return num1 + num2
 
-#solicita la variable
-num1 =int(input("introducir el numero para calcular:"))
+# solicitar las variables
+num1 = int(input("Introduce el primer número: "))
+num2 = int(input("Introduce el segundo número: "))
 
-#imprimir el resultado
-print(f"El cuadrado de {num1} es: {cuadrado_numero(num1)}")
+# imprimir el resultado
+print(f"La suma de {num1} y {num2} es: {sumar(num1, num2)}")
