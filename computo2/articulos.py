@@ -26,6 +26,7 @@ class Articulos:
         cone.close()
         return cursor.fetchall()
 
+
     def recuperar_todos(self):
         cone=self.abrir()
         cursor=cone.cursor()

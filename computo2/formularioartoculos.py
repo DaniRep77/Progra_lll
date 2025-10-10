@@ -143,6 +143,7 @@ class FormularioArticulos:
         self.boton2 = ttk.Button(self.labelframe4, text="Modificar", command=self.modifica)
         self.boton2.grid(column=1, row=4, padx=4, pady=4)
 
+
     def consultar_mod(self):
         datos = (self.codigomod.get(), )
         respuesta = self.articulo1.consulta(datos)
