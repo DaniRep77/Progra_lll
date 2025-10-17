@@ -83,6 +83,7 @@ class empleados:
         return registros
 
 
+
 class FormularioEmpleados:
     def __init__(self):
         self.emp = empleados()
